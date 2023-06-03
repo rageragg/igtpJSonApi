@@ -1,0 +1,28 @@
+{
+    "currencies": [
+        {
+          "id": 1,
+          "simbol": "$",
+          "code_iso": "USD",
+          "name": "Dollar Americano"
+        },
+        {
+          "id": 2,
+          "simbol": "e",
+          "code_iso": "EUR",
+          "name": "Euro"    
+        },
+        {
+          "id": 3,
+          "simbol": "Bs",
+          "code_iso": "VEF",
+          "name": "Bolivar"          
+        },
+        {
+          "id": 4,
+          "simbol": "PC",
+          "code_iso": "COP",
+          "name": "Peso colombiano"          
+        }
+    ]
+}

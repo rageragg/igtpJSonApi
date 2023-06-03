@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rageragg/igtpJSonApi/issues"
   },
-  "homepage": "https://github.com/rageragg/igtpJSonApi#readme"
+  "homepage": "https://github.com/rageragg/igtpJSonApi#readme",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
 }
