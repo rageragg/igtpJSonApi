@@ -1,0 +1,22 @@
+{
+  "name": "igtpjsonapi",
+  "version": "1.0.0",
+  "description": "REST API JSON Constant iGTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rageragg/igtpJSonApi.git"
+  },
+  "keywords": [
+    "rageragg"
+  ],
+  "author": "RaGECA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rageragg/igtpJSonApi/issues"
+  },
+  "homepage": "https://github.com/rageragg/igtpJSonApi#readme"
+}
