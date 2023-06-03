@@ -24,5 +24,246 @@
           "code_iso": "COP",
           "name": "Peso colombiano"          
         }
+    ],
+    "level_dificult_route": [
+        {
+            "id": 1,
+            "code": "A",
+            "name": "BASICO"
+        },
+        {
+            "id": 2,
+            "code": "B",
+            "name": "NORMAL"
+        },
+        {
+            "id": 3,
+            "code": "C",
+            "name": "AVANZADO"
+        },
+        {
+            "id": 4,
+            "code": "D",
+            "name": "EXPERTO"
+        }
+    ],
+    "code_vehicles": [
+        {
+            "id": 1,
+            "code": "TRUCK"
+        },
+        {
+            "id": 2,
+            "code": "TRAILER"
+        },
+        {
+            "id": 3,
+            "code": "CAVA"
+        },
+        {
+            "id": 4,
+            "code": "PLATAFORM"
+        }
+    ],
+    "catalogo_code_vehicles": [
+        {
+            "id": 1,
+            "code": "TRACTOR"
+        },
+        {
+            "id": 2,
+            "code": "TRAILER"
+        }
+    ],
+    "type_gas": [
+        {
+            "id": 1,
+            "code": "GAS"
+        },
+        {
+            "id": 2,
+            "code": "DIESEL"
+        },
+        {
+            "id": 3,
+            "code": "GASOLINE"
+        }
+    ],
+    "type_status": [
+        {
+            "id": 1,
+            "code": "AVAILABLE",
+            "application": ["TRACTOR", "TRAILER","EMPLOYEE"]
+        },
+        {
+            "id": 2,
+            "code": "MAINTENANCE",
+            "application": ["TRUCK", "TRAILER"]
+        },
+        {
+            "id": 3,
+            "code": "SERVING",
+            "application": ["TRUCK", "TRAILER", "EMPLOYEE"]
+        },
+        {
+            "id": 4,
+            "code": "DISCARDED",
+            "application": ["TRUCK", "TRAILER", "EMPLOYEE"]
+        },
+        {
+            "id": 5,
+            "code": "LOCATED",
+            "application": ["TRUCK", "TRAILER","EMPLOYEE"]
+        },
+        {
+            "id": 6,
+            "code": "VACATIONS",
+            "application": ["EMPLOYEE"]
+        }
+    ],
+    "type_system_inyection": [
+        {
+            "id": 1,
+            "code": "ELECTRONIC"
+        },
+        {
+            "id": 2,
+            "code": "CONVENTIONAL"
+        }
+    ],
+    "type_regimen": [
+        {
+            "id": 1,
+            "code": "FREIGHT",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 2,
+            "code": "WEIGHT",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 3,
+            "code": "DISTANCE",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 4,
+            "code": "AMOUNT-MANIFEST",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        }
+    ],
+    "type_secuence": [
+        {
+            "id": 1,
+            "code": "LOGISTIC"
+        },
+        {
+            "id": 2,
+            "code": "BUSSINES"
+        },
+        {
+            "id": 3,
+            "code": "TRANSFERENCE"
+        }
+    ],
+    "type_status_proccess": [
+        {
+            "id": 1,
+            "code": "PLANNED",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 2,
+            "code": "EXECUTING",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 3,
+            "code": "TRANSFERRED",
+            "application": ["TRANSFERS"]
+        },
+        {
+            "id": 4,
+            "code": "COMMIT",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 5,
+            "code": "ELIMINATED",
+            "application": ["FREIGHTS", "TRANSFERS"]
+        },
+        {
+            "id": 6,
+            "code": "INCOMPLETE",
+            "application": ["FREIGHTS"]
+        },
+        {
+            "id": 7,
+            "code": "INVOICED",
+            "application": ["FREIGHTS"]
+        },
+        {
+            "id": 8,
+            "code": "ARCHIVED",
+            "application": ["FREIGHTS","TRANSFERS"]
+        }
+    ],
+    "type_process": [
+        {
+            "id": 1,
+            "code": "LOGISTY",
+            "application": ["FREIGHTS","TRANSFERS"]
+        },
+        {
+            "id": 2,
+            "code": "PAYROLE",
+            "application": ["TRANSFERS"]
+        },
+        {
+            "id": 3,
+            "code": "ARCHIVING",
+            "application": ["FREIGHTS","TRANSFERS"]
+        },
+        {
+            "id": 4,
+            "code": "INVOICING",
+            "application": ["FREIGHTS"]
+        }
+    ],
+    "type_customer": [
+        {
+            "id": 1,
+            "code": "F",
+            "name": "FACTORY"
+        },
+        {
+            "id": 2,
+            "code": "D",
+            "name": "DISTRIBUTIONS"
+        },
+        {
+            "id": 3,
+            "code": "M",
+            "name": "MARKET"
+        }
+    ], 
+    "type_cost_concept": [
+        {
+            "id": 1,
+            "code": "FIXED"
+        },
+        {
+            "id": 2,
+            "code": "TYPE-VEHICLE"
+        },
+        {
+            "id": 3,
+            "code": "TYPE-CARGO"
+        },
+        {
+            "id": 4,
+            "code": "ROUTE"
+        }
     ]
 }
